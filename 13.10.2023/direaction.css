@@ -1,0 +1,16 @@
+.main{
+    width: 80%;
+    padding: 20px;
+    border: 2px solid;
+    display: flex;
+    /* flex-direaction column: то свойства вертикали менаются на горизонталь и наобарот */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+article {
+    width: 20%;
+    padding: 10px;
+    border: 1px solid red;
+}

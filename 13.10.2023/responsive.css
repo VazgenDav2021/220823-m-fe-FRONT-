@@ -1,0 +1,28 @@
+.container{
+    width: 80%;
+    display: flex;
+    padding: 20px;
+    border: 2px solid;
+    justify-content: space-between;
+}
+
+.element{
+    width: 25%;
+    padding: 10px;
+    border: 1px solid blue;
+}
+
+@media (max-width: 1200px){
+    .container{
+        flex-direction: column;
+        gap:12px;
+        padding: 20px;
+    }
+
+    .element{
+        width: fit-content;
+        border: 2px solid green;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
